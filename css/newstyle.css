@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/09/2019, 23:23:25
+    Author     : Cley Anjos
+*/
+/*html {
+  scroll-behavior: smooth;
+}*/
+body {
+  margin: 0;
+  background-color: #000; }
+
+h1 {
+  font-family: Arial;
+  color: red;
+  text-align: center; }
+
+.wrapper-netflix {
+  display: grid;
+  grid-template-columns: repeat(3, 100%);
+  overflow: hidden;
+  scroll-behavior: smooth; }
+  .wrapper-netflix section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px 0; }
+    .wrapper-netflix section .item {
+      padding: 0 2px;
+      transition: 250ms all; }
+      .wrapper-netflix section .item:hover {
+        margin: 0 40px;
+        transform: scale(1.2); }
+    .wrapper-netflix section a {
+      position: absolute;
+      color: #fff;
+      text-decoration: none;
+      font-size: 6em;
+      background: black;
+      width: 80px;
+      padding: 20px;
+      text-align: center;
+      z-index: 1; }
+      .wrapper-netflix section a:nth-of-type(1) {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black 100%); }
+      .wrapper-netflix section a:nth-of-type(2) {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%); }
+
+@media only screen and (max-width: 600px) {
+  a.arrow__btn {
+    display: none; } }
+
+/*# sourceMappingURL=newstyle.css.map */
