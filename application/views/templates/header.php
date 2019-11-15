@@ -1,229 +1,187 @@
+<!--
+=========================================================
+* * Black Dashboard - v1.0.1
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/black-dashboard
+* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
 <!DOCTYPE html>
+<html lang="en">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>Tik-Tutz | A plataforma dos seus eventos</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Está procurando por eventos? Está na plataforma certa! Aqui se encontra todos os eventos do Brasil. Desde shows, reuniões e até palestras." />
-        <meta name="author" content="Dariclei Anjos" />
-        <link rel="icon" href="assets/img/favicon.ico" />
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />  
-        <link href="assets/css/carousel.css" rel="stylesheet" type="text/css" />
-        <link href="assets/sidebarmenu/sidebar.css" rel="stylesheet" />
-        <link href="assets/sidebarmenu/style.css" rel="stylesheet" />
-        <link href="assets/owncarousel/dist/assets/owl.carousel.min.css" rel="stylesheet" type="text/css"/>
-        <link href="assets/owncarousel/dist/assets/owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
-        <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet" type="text/css"/>
-        <link href="css/newstyle.css" rel="stylesheet" type="text/css"/>
-        <style type="text/css">
-            .item {
-                /*                background: red;*/
-                height: auto;
-            }
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <title>
+    Black Dashboard by Creative Tim
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- Nucleo Icons -->
+  <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="assets/demo/demo.css" rel="stylesheet" />
+</head>
 
-        </style>
-    </head>
-    <body class="bg-light">
-
-        <div class="wrapper">
-
-<!--            <nav id="sidebar" class="fixed-top">
-                <br />
-                <br />
-                <br />
-                <div class="sidebar-header">
-                    <h3>Entrar<a id="btn-close-sidebar"><img src="assets/img/erro-white2.png" style="float:right;"/></a></h3>
-                </div>
-
-
-
-                <ul class="list-unstyled CTAs">
-                    <li>
-                        <div id="login">
-
-                            <div class="form-group">
-                                <input id="login_email" class="form-control d-block w-100 mb-2" type="email" placeholder="E-mail" aria-label="E-mail" />
-                            </div>
-
-                            <div class="form-group">
-                                <input id="login_senha" class="form-control d-block w-100 mb-2" type="password" placeholder="Senha" aria-label="Senha" />
-                            </div>
-
-                            <div class="custom-control custom-checkbox w-100 mb-3">
-                                <input id="login_remember" class="" type="checkbox" style="margin-left: -15px;">Manter-se conectado!</input>           
-
-                            </div>
-                            <input id="btn_login" class="w-100 mb-3 btn" type="submit" value="Entrar" style="color: #9D07AF; background-color: #fff;" />
-                            <input id="btn_login_google" class="w-100 mb-3 btn" type="button" value="Entrar com Google" style="color: #9D07AF; background-color: #fff;" />
-                            <input id="btn_login_facebook" class="w-100 mb-3 btn" type="button" value="Entrar com Facebook" style="color: #9D07AF; background-color: #fff;" />
-
-
-
-                        </div>
-
-                        <div class="form-group mb-2">
-                            <a href="cadastro.aspx">
-                                <h6>Não tem conta? Cadastre-se!</h6>
-                            </a>
-                        </div>
-
-
-                    </li>
-                    <li>
-                        <a href="#" class="download">Termos e Condições</a>
-                    </li>
-                    <li>
-                        <a href="#" class="article">Perguntas Frequentes</a>
-
-                    </li>
-
-                </ul>
-            </nav>-->
-
-<div class="menu mt-5">
-<!--    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Service</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-</ul>-->                <br />
-                <br />
-                <br />
-
-                <div class="sidebar-header">
-                    <a id="btn-close-sidebar"><img src="assets/img/erro-violet.png" style="float:right; margin-right: 40px;"/></a>
-                </div>
-
-
-
-                <ul class="list-unstyled CTAs">
-                    <li>
-                        <div id="login">
-                            
-                            <div class="form-group">
-                                <h3 style="color:#9D07AF;">Entrar</h3>
-                            </div>
-
-                            <div class="form-group">
-                                <input id="login_email" class="form-control d-block w-100 mb-2" type="email" placeholder="E-mail" aria-label="E-mail" />
-                            </div>
-
-                            <div class="form-group">
-                                <input id="login_senha" class="form-control d-block w-100 mb-2" type="password" placeholder="Senha" aria-label="Senha" />
-                            </div>
-
-                            <div class="custom-control custom-checkbox w-100 mb-3" style="margin-left: -15px;">
-                                <input id="login_remember" class="" type="checkbox" >&nbsp;Manter-se conectado!</input>           
-
-                            </div>
-                            <input id="btn_login" class="w-100 mb-3 btn" type="submit" value="Entrar" style="color: #fff; background-color: #9D07AF;" />
-                            <input id="btn_login_google" class="w-100 mb-3 btn" type="button" value="Entrar com Google" style="color: #fff; background-color: #9D07AF;" />
-                            <input id="btn_login_facebook" class="w-100 mb-3 btn" type="button" value="Entrar com Facebook" style="color: #fff; background-color: #9D07AF;" />
-
-
-
-                        </div>
-
-                        <div class="form-group mb-2">
-                            <a href="cadastro.aspx">
-                                <h6>Não tem conta? Cadastre-se!</h6>
-                            </a>
-                        </div>
-
-
-                    </li>
-
-
-                </ul>
-</div>
-
-            <div class="content" >
-
-                <nav class="navbar navbar-light fixed-top  navbar-expand-md bg-light" >
-
-                    <div class="col-3 col-md-2 mr-3 mr-sm-2 ml-2 ml-md-0 d-block d-md-none">
-                        <a class="navbar-brand " id="banner_sm" href="#">
-                            <img src="assets/img/tiktutz10.png" /></a>
-                    </div>
-
-                    <div>
-                        <a id="search-sm-btn" class="btn btn-outline-light d-block d-md-none" data-toggle="collapse" href="#collapse_search" role="button" aria-expanded="false" aria-controls="collapse_search">
-                            <img src="assets/img/24-search.png" /></a>
-                    </div>
-
-                    <div class="col-3 col-md-2 order-first mr-3 mr-md-0">
-                        <button type="button" id="sidebarCollapse" class="navbar-brand btn btn-sm btn-dark rounded-circle img-fluid">
-                            <span>
-                                <img src="assets/img/24-user-white.png"  /></span>
-                        </button>
-                    </div>
-
-                    <div>
-                        <a id="menu-sm-btn" class="btn btn-outline-light d-block d-md-none" data-toggle="collapse" href="#collapse_menu" role="button" aria-expanded="false" aria-controls="collapse_menu">
-                            <img src="assets/img/24-menu.png" /></a>
-                    </div>
-
-                    <div class="col-12 col-md-10 collapse navbar-collapse" id="navbarCollapse">
-
-                        <ul class="col-md-4 navbar-nav nav nav-tabs ml-md-0 mr-md-0 mr-5 ml-3 ">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.aspx">
-                                    <img src="assets/img/24-home-blueviolet.png" />&nbsp;<b><span class="d-block d-md-none">Inicio</span></b><span class="sr-only">(atual)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <img src="assets/img/24-filter.png" />&nbsp;<b><span class="d-block d-md-none">
-                                            Filtrar</span></b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <img src="assets/img/24-email.png" />&nbsp;
-                                    <b><span class="d-block d-md-none">Contato</span></b></a>
-                            </li>
-                        </ul>
-
-                        <div class="col-md-4 mx-0 d-none d-md-block ">
-                            <a class="navbar-brand " id="banner_md" href="#">
-                                <img src="assets/img/tiktutz10.png" /></a>
-                        </div>
-
-                        <div class="form-inline col-md-7">
-                            <input id="search_top" class="form-control d-none d-md-block" type="search" placeholder="Digite algo sobre o evento..." aria-label="Digite algo sobre o evento..." />
-                            <input id="btn_search_top1" class="btn btn-outline-light ml-1 mr-3 mr-md-0 d-none d-md-block " type="button" style="background-image:url('assets/img/24-search.png'); background-repeat:no-repeat; margin-top:2%;" />
-                        </div>
-                    </div>
-                </nav>
-
-                <div class="collapse fixed-top w-100" id="collapse_menu">
-                    <div class="card card-body bg-light d-md-none" id="menu-sm">
-                        <a style="background-color:#f8f9fa; margin-left:95%; margin-bottom:3%;" data-toggle="collapse" href="#collapse_menu" role="button" aria-expanded="false" aria-controls="collapse_menu"><p class="bg-light" style="text-align:right; margin-top:5px;"><img src="assets/img/erro-violet.png" /></p></a>
-                        <ul class="navbar-nav nav nav-tabs">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.aspx">
-                                    <b><span class=" d-md-none">Inicio</span></b><span class="sr-only">(atual)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <b><span class=" d-md-none">Filtrar</span></b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="#">
-                                    <b><span class=" d-md-none">Contato</span></b></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="collapse fixed-top w-100" id="collapse_search">
-                    <div class="card card-body bg-light d-md-none" id="search-sm">
-                        <a style="background-color:#f8f9fa; margin-left:95%;margin-bottom:3%;" data-toggle="collapse" href="#collapse_search" role="button" aria-expanded="false" aria-controls="collapse_search"><img src="assets/img/erro-violet.png" /></a>
-                        <div class="form-inline ">
-                            <input id="search_top_sm" class="form-control w-100" placeholder="Digite algo sobre o evento..." aria-label="Digite algo sobre o evento..." type="search"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+<body class="">
+  <div class="wrapper">
+    <div class="sidebar">
+      <!--
+        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red"
+    -->
+      <div class="sidebar-wrapper">
+        <div class="logo">
+          <a href="javascript:void(0)" class="simple-text logo-mini">
+            CT
+          </a>
+          <a href="javascript:void(0)" class="simple-text logo-normal">
+            Creative Tim
+          </a>
         </div>
-        
+        <ul class="nav">
+          <li class="active ">
+            <a href="./dashboard.html">
+              <i class="tim-icons icon-chart-pie-36"></i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li>
+            <a href="./icons.html">
+              <i class="tim-icons icon-atom"></i>
+              <p>Icons</p>
+            </a>
+          </li>
+          <li>
+            <a href="./map.html">
+              <i class="tim-icons icon-pin"></i>
+              <p>Maps</p>
+            </a>
+          </li>
+          <li>
+            <a href="./notifications.html">
+              <i class="tim-icons icon-bell-55"></i>
+              <p>Notifications</p>
+            </a>
+          </li>
+          <li>
+            <a href="./user.html">
+              <i class="tim-icons icon-single-02"></i>
+              <p>User Profile</p>
+            </a>
+          </li>
+          <li>
+            <a href="./tables.html">
+              <i class="tim-icons icon-puzzle-10"></i>
+              <p>Table List</p>
+            </a>
+          </li>
+          <li>
+            <a href="./typography.html">
+              <i class="tim-icons icon-align-center"></i>
+              <p>Typography</p>
+            </a>
+          </li>
+          <li>
+            <a href="./rtl.html">
+              <i class="tim-icons icon-world"></i>
+              <p>RTL Support</p>
+            </a>
+          </li>
+          <li class="active-pro">
+            <a href="./upgrade.html">
+              <i class="tim-icons icon-spaceship"></i>
+              <p>Upgrade to PRO</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle d-inline">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <a class="navbar-brand" href="javascript:void(0)">Dashboard</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav ml-auto">
+              <li class="search-bar input-group">
+                <button class="btn btn-link" id="search-button" data-toggle="modal" data-target="#searchModal"><i class="tim-icons icon-zoom-split" ></i>
+                  <span class="d-lg-none d-md-block">Search</span>
+                </button>
+              </li>
+              <li class="dropdown nav-item">
+                <a href="javascript:void(0)" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                  <div class="notification d-none d-lg-block d-xl-block"></div>
+                  <i class="tim-icons icon-sound-wave"></i>
+                  <p class="d-lg-none">
+                    Notifications
+                  </p>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right dropdown-navbar">
+                  <li class="nav-link"><a href="#" class="nav-item dropdown-item">Mike John responded to your email</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">You have 5 more tasks</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Your friend Michael is in town</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Another notification</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Another one</a></li>
+                </ul>
+              </li>
+              <li class="dropdown nav-item">
+                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                  <div class="photo">
+                    <img src="assets/img/anime3.png" alt="Profile Photo">
+                  </div>
+                  <b class="caret d-none d-lg-block d-xl-block"></b>
+                  <p class="d-lg-none">
+                    Log out
+                  </p>
+                </a>
+                <ul class="dropdown-menu dropdown-navbar">
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Profile</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Settings</a></li>
+                  <li class="dropdown-divider"></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Log out</a></li>
+                </ul>
+              </li>
+              <li class="separator d-lg-none"></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="modal modal-search fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="SEARCH">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <i class="tim-icons icon-simple-remove"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Navbar -->
