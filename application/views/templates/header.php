@@ -24,6 +24,8 @@
   <title>
     Black Dashboard by Creative Tim
   </title>
+  
+  <!--     Links do Template do Black Dashboard by Creative Tim - Cley Anjos     -->
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
@@ -33,6 +35,18 @@
   <link href="assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="assets/demo/demo.css" rel="stylesheet" />
+  
+  <!--     Links do Material Design Bootstrap - Cley Anjos     -->
+  
+    <!-- Font Awesome -->
+<!--  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">-->
+  <!-- Bootstrap core CSS -->
+<!--  <link rel="stylesheet" href="mdb-assets/css/bootstrap.min.css">-->
+  <!-- Material Design Bootstrap -->
+<!--  <link rel="stylesheet" href="mdb-assets/css/mdb.min.css">-->
+  <!-- Your custom styles (optional) -->
+<!--  <link rel="stylesheet" href="mdb-assets/css/style.css">-->
+  
 </head>
 
 <body class="">

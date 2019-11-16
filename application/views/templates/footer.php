@@ -68,6 +68,8 @@
       </ul>
     </div>
   </div>
+  
+  <!-- Link scripts do Black Dashboard by Creative Tim - Cley Anjos -->
   <!--   Core JS Files   -->
   <script src="assets/js/core/jquery.min.js"></script>
   <script src="assets/js/core/popper.min.js"></script>
@@ -83,6 +85,18 @@
   <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="assets/js/black-dashboard.min.js?v=1.0.0"></script><!-- Black Dashboard DEMO methods, don't include it in your project! -->
   <script src="assets/demo/demo.js"></script>
+  
+  <!-- Link scripts Material Design - Cley Anjos -->
+  <!-- jQuery -->
+<!--  <script type="text/javascript" src="mdb-assets/js/jquery.min.js"></script>
+   Bootstrap tooltips 
+  <script type="text/javascript" src="mdb-assets/js/popper.min.js"></script>
+   Bootstrap core JavaScript 
+  <script type="text/javascript" src="mdb-assets/js/bootstrap.min.js"></script>-->
+  <!-- MDB core JavaScript -->
+<!--  <script type="text/javascript" src="mdb-assets/js/mdb.min.js"></script>-->
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
   <script>
     $(document).ready(function() {
       $().ready(function() {
