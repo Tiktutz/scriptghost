@@ -35,26 +35,25 @@
   <link href="assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="assets/demo/demo.css" rel="stylesheet" />
-  
-  <!--     Links do Material Design Bootstrap - Cley Anjos     -->
-  
-    <!-- Font Awesome -->
-<!--  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">-->
-  <!-- Bootstrap core CSS -->
-<!--  <link rel="stylesheet" href="mdb-assets/css/bootstrap.min.css">-->
-  <!-- Material Design Bootstrap -->
-<!--  <link rel="stylesheet" href="mdb-assets/css/mdb.min.css">-->
-  <!-- Your custom styles (optional) -->
-<!--  <link rel="stylesheet" href="mdb-assets/css/style.css">-->
+
+<!--     Links do OwnCarousel2 - Cley Anjos     -->
+
+<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+<style>
+    .item{
+        height: 400px;
+    }
+</style>
   
 </head>
 
 <body class="">
   <div class="wrapper">
     <div class="sidebar">
-      <!--
-        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red"
-    -->
+     
+    
       <div class="sidebar-wrapper">
         <div class="logo">
           <a href="javascript:void(0)" class="simple-text logo-mini">
@@ -124,7 +123,7 @@
     </div>
     <div class="main-panel">
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
+      <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent position-fixed">
         <div class="container-fluid">
           <div class="navbar-wrapper">
             <div class="navbar-toggle d-inline">

@@ -86,20 +86,20 @@
   <script src="assets/js/black-dashboard.min.js?v=1.0.0"></script><!-- Black Dashboard DEMO methods, don't include it in your project! -->
   <script src="assets/demo/demo.js"></script>
   
-  <!-- Link scripts Material Design - Cley Anjos -->
-  <!-- jQuery -->
-<!--  <script type="text/javascript" src="mdb-assets/js/jquery.min.js"></script>
-   Bootstrap tooltips 
-  <script type="text/javascript" src="mdb-assets/js/popper.min.js"></script>
-   Bootstrap core JavaScript 
-  <script type="text/javascript" src="mdb-assets/js/bootstrap.min.js"></script>-->
-  <!-- MDB core JavaScript -->
-<!--  <script type="text/javascript" src="mdb-assets/js/mdb.min.js"></script>-->
-  <!-- Your custom scripts (optional) -->
+  <!--     Links dos scrips OwnCarousel2 - Cley Anjos     -->
+  
+  <script src="assets/js/owl.carousel.min.js"></script>
+
   <script type="text/javascript"></script>
   <script>
     $(document).ready(function() {
+
+        
+
       $().ready(function() {
+          
+
+          
         $sidebar = $('.sidebar');
         $navbar = $('.navbar');
         $main_panel = $('.main-panel');
@@ -215,6 +215,46 @@
 
     });
   </script>
+    <script>
+$(document).ready(function(){
+  $("#top-5").owlCarousel({
+    items:1,
+    autoplay:true,
+    loop: true
+    
+});
+
+  $("#top-destaques").owlCarousel({
+    items:3,
+    margin:10,
+    loop: true
+    
+});
+
+  $("#top-free").owlCarousel({
+    items:3,
+    margin:10,
+    loop: true
+    
+});
+
+  $("#top-lanc").owlCarousel({
+    items:3,
+    margin:10,
+    loop: true
+    
+});
+
+  $("#top-pre").owlCarousel({
+    items:3,
+    margin:10,
+    loop: true
+    
+});
+
+});
+  </script>
+  
   <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
   <script>
     window.TrackJS &&
