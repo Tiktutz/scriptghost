@@ -395,26 +395,51 @@
                 <div class="item img-fluid"><img src="assets/img/banner.png" height="400px"/></div>
                 <div class="item img-fluid"><img src="assets/img/banner.png" height="400px"/></div>
                 <div class="item img-fluid"><img src="assets/img/banner.png" height="400px"/></div>
-             </div>
+            </div>
         </div>
     </div>
-    
-        <div class="row">
+
+    <div class="row">
         <div class="col-12">
             <div class="h1 text-white mt-4 mb-5">EM ALTA</div>
             <div id="top-destaques" class="owl-carousel">               
-                <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px"  /></div>
+                <div class="item2 img-fluid" >
+                    <div class="product-grid6">
+                        <div class="product-image6">
+                            <a href="#">
+                                <img class="pic-1" src="assets/img/banner.png" height="200px" />
+                            </a>
+                        </div>
+                        <!--                        <div class="product-content">
+                                                    <h3 class="title"><a href="#">Men's Shirt</a></h3>
+                                                    <div class="price">$11.00
+                                                        <span>$14.00</span>
+                                                    </div>
+                                                </div>-->
+                        <ul class="social">
+                            <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                            <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item2 img-fluid">
+                    <div class="product-grid6">
+                        <div class="product-image6">
+                            <img class="pic-1" src="assets/img/banner.png" height="200px" />
+                        </div>
+                    </div>
+                </div>
                 <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
                 <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
                 <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
                 <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
                 <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
-                <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
-             </div>
+            </div>
         </div>
     </div>
-    
-            <div class="row">
+
+    <div class="row">
         <div class="col-12">
             <div class="h1 text-white mt-4 mb-5">POPULARES</div>
             <div id="top-free" class="owl-carousel">               
@@ -425,11 +450,11 @@
                 <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
                 <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
                 <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
-             </div>
+            </div>
         </div>
     </div>
-    
-                <div class="row">
+
+    <div class="row">
         <div class="col-12">
             <div class="h1 text-white mt-4 mb-5">LANÇAMENTOS</div>
             <div id="top-lanc" class="owl-carousel">               
@@ -440,11 +465,11 @@
                 <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
                 <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
                 <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
-             </div>
+            </div>
         </div>
     </div>
-    
-                    <div class="row">
+
+    <div class="row">
         <div class="col-12">
             <div class="h1 text-white mt-4 mb-5">EM BREVE</div>
             <div id="top-pre" class="owl-carousel">               
@@ -455,11 +480,11 @@
                 <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
                 <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
                 <div class="item2 img-fluid"><img src="assets/img/banner.png" height="200px" /></div>
-             </div>
+            </div>
         </div>
     </div>
-    
-    
+
+
 
 
 
