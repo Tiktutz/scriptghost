@@ -227,7 +227,7 @@ $(document).ready(function(){
     nav: true,
     dots: true,
     autoplayTimeout:5000,
-    navText: ['<div id="navSlidePrev" class=" bg-primary position-absolute" style="top:30%;"><i class="tim-icons icon-minimal-left text-white-50" style="font-size: 100px;"></i></div>', '<div id="navSlideProx" class=" bg-primary position-absolute" style="top:30%; right:0%;"><i class="tim-icons icon-minimal-left text-white-50" style="font-size: 100px;"></i></div>']
+    navText: ['<div id="navSlidePrev" class="position-absolute" style="top:30%;"><i class="tim-icons icon-minimal-left" style="font-size: 100px;color:#fff;"></i></div>', '<div id="navSlideProx" class="position-absolute" style="top:30%; right:0%;"><i class="tim-icons icon-minimal-right" style="font-size: 100px; color:#fff;"></i></div>']
 
  
     
@@ -237,7 +237,10 @@ $(document).ready(function(){
     items:3,
     margin:10,
     loop: true,
-    touch: true
+    touch: true,
+    nav:true,
+    dots: true,
+    navText: ['<div id="navSlidePrev" class="bg-primary position-absolute rounded-circle" style="top:30%; padding: 10px;"><i class="tim-icons icon-minimal-left" style="font-size: 30px;color:#fff;"></i></div>', '<div id="navSlideProx" class="bg-primary rounded-circle position-absolute" style="top:30%; right:0%; padding:10px;"><i class="tim-icons icon-minimal-right" style="font-size: 30px; color:#fff;"></i></div>']
     
 });
 
@@ -245,7 +248,10 @@ $(document).ready(function(){
     items:3,
     margin:10,
     loop: true,
-    touch: true
+    touch: true,
+    nav:true,
+    dots: true,
+    navText: ['<div id="navSlidePrev" class="bg-primary position-absolute rounded-circle" style="top:30%; padding: 10px;"><i class="tim-icons icon-minimal-left" style="font-size: 30px;color:#fff;"></i></div>', '<div id="navSlideProx" class="bg-primary rounded-circle position-absolute" style="top:30%; right:0%; padding:10px;"><i class="tim-icons icon-minimal-right" style="font-size: 30px; color:#fff;"></i></div>']
     
 });
 
@@ -253,7 +259,10 @@ $(document).ready(function(){
     items:3,
     margin:10,
     loop: true,
-    touch: true
+    touch: true,
+    nav:true,
+    dots: true,
+    navText: ['<div id="navSlidePrev" class="bg-primary position-absolute rounded-circle" style="top:30%; padding: 10px;"><i class="tim-icons icon-minimal-left" style="font-size: 30px;color:#fff;"></i></div>', '<div id="navSlideProx" class="bg-primary rounded-circle position-absolute" style="top:30%; right:0%; padding:10px;"><i class="tim-icons icon-minimal-right" style="font-size: 30px; color:#fff;"></i></div>']
     
 });
 
@@ -261,7 +270,10 @@ $(document).ready(function(){
     items:3,
     margin:10,
     loop: true,
-    touch: true
+    touch: true,
+    nav:true,
+    dots: true,
+    navText: ['<div id="navSlidePrev" class="bg-primary position-absolute rounded-circle" style="top:30%; padding: 10px;"><i class="tim-icons icon-minimal-left" style="font-size: 30px;color:#fff;"></i></div>', '<div id="navSlideProx" class="bg-primary rounded-circle position-absolute" style="top:30%; right:0%; padding:10px;"><i class="tim-icons icon-minimal-right" style="font-size: 30px; color:#fff;"></i></div>']
     
 });
 
