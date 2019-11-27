@@ -86,9 +86,9 @@
             .product-grid6 .social{background-color:#fff;width:100%;padding:0;margin:0;list-style:none;opacity:0;transform:translateX(-50%);position:absolute;bottom:-50%;left:50%;z-index:1;transition:all .5s ease 0s}
             .product-grid6:hover .social{opacity:1;bottom:20px}
             .product-grid6 .social li{display:inline-block}
-            .product-grid6 .social li a{color:#909090;font-size:16px;line-height:45px;text-align:center;height:45px;width:45px;margin:0 7px;border:1px solid #909090;border-radius:50px;display:block;position:relative;transition:all .3s ease-in-out}
-            .product-grid6 .social li a:hover{color:#fff;background-color:#2e86de;width:80px}
-            .product-grid6 .social li a:after,.product-grid6 .social li a:before{content:attr(data-tip);color:#fff;background-color:#2e86de;font-size:12px;letter-spacing:1px;line-height:20px;padding:1px 5px;border-radius:5px;white-space:nowrap;opacity:0;transform:translateX(-50%);position:absolute;left:50%;top:-30px}
+            .product-grid6 .social li a{color:#e14eca;font-size:16px;line-height:45px;text-align:center;height:45px;width:45px;margin:0 7px;border:1px solid #e14eca;border-radius:50px;display:block;position:relative;transition:all .3s ease-in-out}
+            .product-grid6 .social li a:hover{color:#fff;background-color:#e14eca;width:80px}
+            .product-grid6 .social li a:after,.product-grid6 .social li a:before{content:attr(data-tip);color:#fff;background-color:#e14eca;font-size:12px;letter-spacing:1px;line-height:20px;padding:1px 5px;border-radius:5px;white-space:nowrap;opacity:0;transform:translateX(-50%);position:absolute;left:50%;top:-30px}
             .product-grid6 .social li a:after{content:'';height:15px;width:15px;border-radius:0;transform:translateX(-50%) rotate(45deg);top:-20px;z-index:-1}
             .product-grid6 .social li a:hover:after,.product-grid6 .social li a:hover:before{opacity:1}
             @media only screen and (max-width:990px){.product-grid6{margin-bottom:30px}
@@ -105,74 +105,194 @@
 
                 <div class="sidebar-wrapper">
                     <div class="logo">
-                        <a href="javascript:void(0)" class="simple-text logo-mini">
-                            CT
-                        </a>
-                        <a href="javascript:void(0)" class="simple-text logo-normal">
-                            Creative Tim
+                        <!--                        <a href="javascript:void(0)" class="simple-text logo-mini">
+                                                   CT  
+                                                </a>
+                                                <a href="javascript:void(0)" class="simple-text logo-normal">
+                                                    CREATIVE TIM
+                                                </a>-->
+
+                        <a href="javascript:void(0)" class="simple-text text-center">
+                            EVENTOS EM TODO BRASIL  
                         </a>
                     </div>
                     <ul class="nav">
-                        <li class="active ">
+                        <li class="active text-center ">
                             <a href="./dashboard.html">
-                                <i class="tim-icons icon-chart-pie-36"></i>
-                                <p>Dashboard</p>
+                                <p>ACRE</p>
                             </a>
                         </li>
-                        <li>
+                        <li class="text-center">
                             <a href="./icons.html">
-                                <i class="tim-icons icon-atom"></i>
-                                <p>Icons</p>
+                                <p>ALAGOAS</p>
                             </a>
                         </li>
-                        <li>
+                        <li class="text-center">
                             <a href="./map.html">
-                                <i class="tim-icons icon-pin"></i>
-                                <p>Maps</p>
+                                <p>AMAPÁ</p>
                             </a>
                         </li>
-                        <li>
+                        <li class="text-center">
                             <a href="./notifications.html">
-                                <i class="tim-icons icon-bell-55"></i>
-                                <p>Notifications</p>
+                                <p>AMAZONAS</p>
                             </a>
                         </li>
-                        <li>
+                        <li class="text-center">
                             <a href="./user.html">
-                                <i class="tim-icons icon-single-02"></i>
-                                <p>User Profile</p>
+                                <p>BAHIA</p>
                             </a>
                         </li>
-                        <li>
+                        <li class="text-center">
                             <a href="./tables.html">
-                                <i class="tim-icons icon-puzzle-10"></i>
-                                <p>Table List</p>
+                                <p>CEARÁ</p>
                             </a>
                         </li>
-                        <li>
+                        <li class="text-center">
                             <a href="./typography.html">
-                                <i class="tim-icons icon-align-center"></i>
-                                <p>Typography</p>
+                                <p>DISTRITO FEDERAL</p>
                             </a>
                         </li>
-                        <li>
+                        <li class="text-center">
                             <a href="./rtl.html">
-                                <i class="tim-icons icon-world"></i>
-                                <p>RTL Support</p>
+                                <p>ESPÍRITO SANTO</p>
                             </a>
                         </li>
-                        <li class="active-pro">
-                            <a href="./upgrade.html">
-                                <i class="tim-icons icon-spaceship"></i>
-                                <p>Upgrade to PRO</p>
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>GOIÁS</p>
                             </a>
                         </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>MARANHÃO</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>MATO GROSSO</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>MATO GROSSO DO SUL</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>MINAS GERAIS</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>PARÁ</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>PARAÍBA</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>PARANÁ</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>PERNAMBUCO</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>PIAUÍ</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>RIO DE JANEIRO</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>RIO GRANDE DO NORTE</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>RIO GRANDE DO SUL</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>RONDÔNIA</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>RORAIMA</p>
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>SANTA CATARINA</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>SÃO PAULO</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>SERGIPE</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>TOCANTINS</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center invisible">
+                            <a href="./rtl.html">
+                                <p>TOCANTINS</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center invisible">
+                            <a href="./rtl.html">
+                                <p>TOCANTINS</p>
+                            </a>
+                        </li>
+                        <!--                        <li class="active-pro">
+                                                    <a href="./upgrade.html">
+                                                        <i class="tim-icons icon-spaceship"></i>
+                                                        <p>Upgrade to PRO</p>
+                                                    </a>
+                                                </li>-->
                     </ul>
                 </div>
             </div>
             <div class="main-panel">
                 <!-- Navbar -->
-                <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent position-fixed">
+                <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
                     <div class="container-fluid">
                         <div class="navbar-wrapper">
                             <div class="navbar-toggle d-inline">
@@ -193,7 +313,7 @@
                             <ul class="navbar-nav ml-auto">
                                 <li class="search-bar input-group">
                                     <button class="btn btn-link" id="search-button" data-toggle="modal" data-target="#searchModal"><i class="tim-icons icon-zoom-split" ></i>
-                                        <span class="d-lg-none d-md-block">Search</span>
+                                        <span class="d-lg-none d-md-block">Pesquisar Evento</span>
                                     </button>
                                 </li>
                                 <li class="dropdown nav-item">
@@ -201,7 +321,7 @@
                                         <div class="notification d-none d-lg-block d-xl-block"></div>
                                         <i class="tim-icons icon-sound-wave"></i>
                                         <p class="d-lg-none">
-                                            Notifications
+                                            Notificações
                                         </p>
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-right dropdown-navbar">
@@ -219,14 +339,13 @@
                                         </div>
                                         <b class="caret d-none d-lg-block d-xl-block"></b>
                                         <p class="d-lg-none">
-                                            Log out
+                                            Entrar
                                         </p>
                                     </a>
                                     <ul class="dropdown-menu dropdown-navbar">
-                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Profile</a></li>
-                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Settings</a></li>
-                                        <li class="dropdown-divider"></li>
-                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Log out</a></li>
+                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">ENTRAR</a></li>
+                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">CADASTRAR</a></li>
+
                                     </ul>
                                 </li>
                                 <li class="separator d-lg-none"></li>
@@ -238,7 +357,7 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="SEARCH">
+                                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="DIGITE ALGO SOBRE O EVENTO...">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <i class="tim-icons icon-simple-remove"></i>
                                 </button>
