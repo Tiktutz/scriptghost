@@ -302,15 +302,28 @@
                                     <span class="navbar-toggler-bar bar3"></span>
                                 </button>
                             </div>
-                            <a class="navbar-brand" href="javascript:void(0)">TIK-TUTZ</a>
+                            <a class="navbar-brand" href="javascript:void(0)"><img src="assets/img/tik1.png" height="25px"/></a>
                         </div>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-bar navbar-kebab"></span>
                             <span class="navbar-toggler-bar navbar-kebab"></span>
                             <span class="navbar-toggler-bar navbar-kebab"></span>
-                        </button>
+                        </button>                      
                         <div class="collapse navbar-collapse" id="navigation">
                             <ul class="navbar-nav ml-auto">
+                                <ul class="navbar-nav ml-auto" style="padding-left:2.5%;">
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">SOCIAL</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">CORPORATIVO</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">EMPRESARIAL</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">ESPIRITUAL</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">ACADÊMICO</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">CULTURAL</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">ENTRETENIMENTO</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">ESPORTIVO</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">POLÍTICO</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">EDUCACIONAL</a></li>
+                                </ul>
+
                                 <li class="search-bar input-group">
                                     <button class="btn btn-link" id="search-button" data-toggle="modal" data-target="#searchModal"><i class="tim-icons icon-zoom-split" ></i>
                                         <span class="d-lg-none d-md-block">Pesquisar Evento</span>
@@ -335,7 +348,7 @@
                                 <li class="dropdown nav-item">
                                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                                         <div class="photo">
-                                            <img src="assets/img/anime3.png" alt="Profile Photo">
+                                            <img src="assets/img/user.png" alt="Profile Photo">
                                         </div>
                                         <b class="caret d-none d-lg-block d-xl-block"></b>
                                         <p class="d-lg-none">
@@ -344,7 +357,7 @@
                                     </a>
                                     <ul class="dropdown-menu dropdown-navbar">
                                         <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">ENTRAR</a></li>
-                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">CADASTRAR</a></li>
+                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">CADASTRAR-SE</a></li>
 
                                     </ul>
                                 </li>

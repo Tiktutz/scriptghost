@@ -3,12 +3,7 @@
         <ul class="nav">
             <li class="nav-item">
                 <a href="javascript:void(0)" class="nav-link">
-                    Tiktutz
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="javascript:void(0)" class="nav-link">
-                    Inicio
+                    <img src="assets/img/tik1.png" height="25px"/>
                 </a>
             </li>
             <li class="nav-item">
