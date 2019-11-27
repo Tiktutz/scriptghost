@@ -19,10 +19,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-        <link rel="icon" type="image/png" href="assets/img/favicon.png">
+        <link rel="icon" href="assets/img/favicon2.ico">
         <title>
-            Black Dashboard by Creative Tim
+            TIKTUTZ - A MAIOR PLATAFORMA DIGITAL PARA SEUS EVENTOS
         </title>
 
         <!--     Links do Template do Black Dashboard by Creative Tim - Cley Anjos     -->
@@ -329,7 +328,7 @@
                                         <span class="d-lg-none d-md-block">Pesquisar Evento</span>
                                     </button>
                                 </li>
-                                <li class="dropdown nav-item">
+<!--                                <li class="dropdown nav-item">
                                     <a href="javascript:void(0)" class="dropdown-toggle nav-link" data-toggle="dropdown">
                                         <div class="notification d-none d-lg-block d-xl-block"></div>
                                         <i class="tim-icons icon-sound-wave"></i>
@@ -344,7 +343,7 @@
                                         <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Another notification</a></li>
                                         <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Another one</a></li>
                                     </ul>
-                                </li>
+                                </li>-->
                                 <li class="dropdown nav-item">
                                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                                         <div class="photo">
