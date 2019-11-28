@@ -332,7 +332,9 @@
         });
 
 
-
+        $('#btn-cadastroevent').on('click', function () {
+            $('#form_cadastroevent').submit();
+        });
 
 
 

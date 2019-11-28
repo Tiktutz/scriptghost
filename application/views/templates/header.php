@@ -357,12 +357,12 @@
                                         </div>
                                         <b class="caret d-none d-lg-block d-xl-block"></b>
                                         <p class="d-lg-none">
-                                            Entrar
+                                            <?php echo $this->session->userdata('nome'); ?>
                                         </p>
                                     </a>
                                     <ul class="dropdown-menu dropdown-navbar">
-                                        <li class="nav-link"><a href="<?php echo base_url(); ?>login" class="nav-item dropdown-item">ENTRAR</a></li>
-                                        <li class="nav-link"><a href="<?php echo base_url(); ?>cadastro" class="nav-item dropdown-item">CADASTRAR-SE</a></li>
+                                        <li class="nav-link"><a href="<?php echo base_url(); ?>cadastro_evento" class="nav-item dropdown-item">CRIAR EVENTO</a></li>
+                                        <li class="nav-link"><a href="<?php echo base_url(); ?>logout" class="nav-item dropdown-item">LOGOUT</a></li>
 
                                     </ul>
                                 </li>

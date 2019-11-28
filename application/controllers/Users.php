@@ -3,6 +3,7 @@
 class Users extends CI_Controller {
 
     public $UserDAO;
+    public $EventDAO;
 
     public function __construct() {
 
@@ -10,6 +11,8 @@ class Users extends CI_Controller {
 
         $this->load->model('usuario/User');
         $this->load->model('usuario/UserDAO');
+        $this->load->model('evento/Event');
+        $this->load->model('evento/EventDAO');
     }
 
     public function checkAcess() {
@@ -31,7 +34,7 @@ class Users extends CI_Controller {
             $senha = $this->input->post('senha');
 
             if ($this->UserDAO->getByLogin($login, $senha)) {
-                
+
                 $user = $this->UserDAO->getByLogin($login, $senha);
 
                 $this->session->set_userdata('id', $user->getId());
@@ -144,6 +147,73 @@ class Users extends CI_Controller {
             $this->load->view('templates/header_none', $this->data);
             $this->load->view('pages/cadastro', $this->data);
             $this->load->view('templates/footer_none', $this->data);
+        }
+    }
+
+    public function cadastro_evento() {
+        if ($this->checkAcess()) {
+
+            $this->data['result'] = NULL;
+            $this->data['erros'] = NULL;
+            $this->data['logado'] = TRUE;
+
+            $event = new Event();
+
+            if (!empty($this->input->post('evento'))) {
+
+                $this->form_validation->set_rules('evento[nome]', 'Nome', 'required', array('required' => 'Você deixou o campo nome em branco.'));
+
+                if ($this->form_validation->run() == FALSE) {
+                    $this->data['result'] = 'error';
+                    $this->data['erros'] = validation_errors('<li>', '</li>');
+                } else {
+
+                    $post = $this->input->post('evento');
+
+                    $event->setNome($post['nome']);
+                    $event->setDateTimeInicio($post['inicio']);
+                    $event->setDateTimeFinal($post['final']);
+                    $event->setCategoria($post['categoria']);
+                    $event->setEndereco($post['endereco']);
+                    $event->setBairro($post['bairro']);
+                    $event->setCidade($post['cidade']);
+                    $event->setEstado($post['estado']);
+                    $event->setCEP($post['cep']);
+                    $event->setDescricao($post['descricao']);
+                    if (isset($_FILES['arquivo']) && !empty($_FILES['arquivo'])) {
+
+                        $extensao = strtolower(substr($_FILES['arquivo']['name'], -4));
+                        $novo_nome = md5(time()) . $extensao;
+                        $diretorio = "bannerimg/";
+
+                        move_uploaded_file($_FILES['arquivo']['tmp_name'], $diretorio . $novo_nome);
+
+                        $event->setBannerIMG($diretorio . $novo_nome);
+                    }if ($_FILES['arquivo']['name'] == "" || $_FILES['arquivo']['name'] == " ") {
+                        $event->setBannerIMG('assets/img/evento.jpg');
+                    }
+
+                    $add = $this->EventDAO->add($event);
+
+                    if ($add) {
+
+                        $this->data['result'] = 'success';
+
+                        $event = new Event();
+                    } else {
+
+                        $this->data['result'] = 'error';
+                    }
+                }
+            }
+
+            $this->data['event'] = $event;
+
+            $this->load->view('templates/header', $this->data);
+            $this->load->view('pages/cadastro_evento', $this->data);
+            $this->load->view('templates/footer', $this->data);
+        } else {
+            redirect('logout');
         }
     }
 
