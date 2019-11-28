@@ -410,8 +410,8 @@
                         </ul>
                     </div>                   
                 </div>
-                
-                                <div class="item img-fluid" >                   
+
+                <div class="item img-fluid" >                   
                     <div class="product-grid6">
                         <div class="product-image6">
                             <a href="#">
@@ -432,8 +432,8 @@
                         </ul>
                     </div>                   
                 </div>
-                
-                                <div class="item img-fluid" >                   
+
+                <div class="item img-fluid" >                   
                     <div class="product-grid6">
                         <div class="product-image6">
                             <a href="#">
@@ -454,8 +454,8 @@
                         </ul>
                     </div>                   
                 </div>
-                
-                                <div class="item img-fluid" >                   
+
+                <div class="item img-fluid" >                   
                     <div class="product-grid6">
                         <div class="product-image6">
                             <a href="#">
@@ -476,8 +476,8 @@
                         </ul>
                     </div>                   
                 </div>
-                
-                                <div class="item img-fluid" >                   
+
+                <div class="item img-fluid" >                   
                     <div class="product-grid6">
                         <div class="product-image6">
                             <a href="#">
@@ -1425,3 +1425,4 @@
 
 
 </div>
+

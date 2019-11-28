@@ -93,6 +93,10 @@
             @media only screen and (max-width:990px){.product-grid6{margin-bottom:30px}
             }
 
+            #evento-categoria li:hover{
+                border-bottom: 2px solid #e14eca;
+            }
+
         </style>
 
     </head>
@@ -105,14 +109,14 @@
                 <div class="sidebar-wrapper">
                     <div class="logo">
                         <!--                        <a href="javascript:void(0)" class="simple-text logo-mini">
-                                                   CT  
+                                                   CT
                                                 </a>
                                                 <a href="javascript:void(0)" class="simple-text logo-normal">
                                                     CREATIVE TIM
                                                 </a>-->
 
                         <a href="javascript:void(0)" class="simple-text text-center">
-                            EVENTOS EM TODO BRASIL  
+                            EVENTOS EM TODO BRASIL
                         </a>
                     </div>
                     <ul class="nav">
@@ -307,10 +311,10 @@
                             <span class="navbar-toggler-bar navbar-kebab"></span>
                             <span class="navbar-toggler-bar navbar-kebab"></span>
                             <span class="navbar-toggler-bar navbar-kebab"></span>
-                        </button>                      
+                        </button>
                         <div class="collapse navbar-collapse" id="navigation">
                             <ul class="navbar-nav ml-auto">
-                                <ul class="navbar-nav ml-auto" style="padding-left:2.5%;">
+                                <ul id="evento-categoria" class="navbar-nav ml-auto" style="padding-left:2.5%;">
                                     <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">SOCIAL</a></li>
                                     <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">CORPORATIVO</a></li>
                                     <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">EMPRESARIAL</a></li>
@@ -328,22 +332,22 @@
                                         <span class="d-lg-none d-md-block">Pesquisar Evento</span>
                                     </button>
                                 </li>
-<!--                                <li class="dropdown nav-item">
-                                    <a href="javascript:void(0)" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                                        <div class="notification d-none d-lg-block d-xl-block"></div>
-                                        <i class="tim-icons icon-sound-wave"></i>
-                                        <p class="d-lg-none">
-                                            Notificações
-                                        </p>
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-menu-right dropdown-navbar">
-                                        <li class="nav-link"><a href="#" class="nav-item dropdown-item">Mike John responded to your email</a></li>
-                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">You have 5 more tasks</a></li>
-                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Your friend Michael is in town</a></li>
-                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Another notification</a></li>
-                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Another one</a></li>
-                                    </ul>
-                                </li>-->
+                                <!--                                <li class="dropdown nav-item">
+                                                                    <a href="javascript:void(0)" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                                                                        <div class="notification d-none d-lg-block d-xl-block"></div>
+                                                                        <i class="tim-icons icon-sound-wave"></i>
+                                                                        <p class="d-lg-none">
+                                                                            Notificações
+                                                                        </p>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu dropdown-menu-right dropdown-navbar">
+                                                                        <li class="nav-link"><a href="#" class="nav-item dropdown-item">Mike John responded to your email</a></li>
+                                                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">You have 5 more tasks</a></li>
+                                                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Your friend Michael is in town</a></li>
+                                                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Another notification</a></li>
+                                                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Another one</a></li>
+                                                                    </ul>
+                                                                </li>-->
                                 <li class="dropdown nav-item">
                                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                                         <div class="photo">
