@@ -100,6 +100,292 @@
         </style>
 
     </head>
+    
+    <?php if ($logado == TRUE) { ?>
+
+    <body class="">
+        <div class="wrapper">
+            <div class="sidebar">
+
+
+                <div class="sidebar-wrapper">
+                    <div class="logo">
+                        <!--                        <a href="javascript:void(0)" class="simple-text logo-mini">
+                                                   CT
+                                                </a>
+                                                <a href="javascript:void(0)" class="simple-text logo-normal">
+                                                    CREATIVE TIM
+                                                </a>-->
+
+                        <a href="javascript:void(0)" class="simple-text text-center">
+                            EVENTOS EM TODO BRASIL
+                        </a>
+                    </div>
+                    <ul class="nav">
+                        <li class="active text-center ">
+                            <a href="./dashboard.html">
+                                <p>ACRE</p>
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="./icons.html">
+                                <p>ALAGOAS</p>
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="./map.html">
+                                <p>AMAPÁ</p>
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="./notifications.html">
+                                <p>AMAZONAS</p>
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="./user.html">
+                                <p>BAHIA</p>
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="./tables.html">
+                                <p>CEARÁ</p>
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="./typography.html">
+                                <p>DISTRITO FEDERAL</p>
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>ESPÍRITO SANTO</p>
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>GOIÁS</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>MARANHÃO</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>MATO GROSSO</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>MATO GROSSO DO SUL</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>MINAS GERAIS</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>PARÁ</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>PARAÍBA</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>PARANÁ</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>PERNAMBUCO</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>PIAUÍ</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>RIO DE JANEIRO</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>RIO GRANDE DO NORTE</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>RIO GRANDE DO SUL</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>RONDÔNIA</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>RORAIMA</p>
+                            </a>
+                        </li>
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>SANTA CATARINA</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>SÃO PAULO</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>SERGIPE</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center">
+                            <a href="./rtl.html">
+                                <p>TOCANTINS</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center invisible">
+                            <a href="./rtl.html">
+                                <p>TOCANTINS</p>
+                            </a>
+                        </li>
+
+                        <li class="text-center invisible">
+                            <a href="./rtl.html">
+                                <p>TOCANTINS</p>
+                            </a>
+                        </li>
+                        <!--                        <li class="active-pro">
+                                                    <a href="./upgrade.html">
+                                                        <i class="tim-icons icon-spaceship"></i>
+                                                        <p>Upgrade to PRO</p>
+                                                    </a>
+                                                </li>-->
+                    </ul>
+                </div>
+            </div>
+            <div class="main-panel">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
+                    <div class="container-fluid">
+                        <div class="navbar-wrapper">
+                            <div class="navbar-toggle d-inline">
+                                <button type="button" class="navbar-toggler">
+                                    <span class="navbar-toggler-bar bar1"></span>
+                                    <span class="navbar-toggler-bar bar2"></span>
+                                    <span class="navbar-toggler-bar bar3"></span>
+                                </button>
+                            </div>
+                            <a class="navbar-brand" href="javascript:void(0)"><img src="assets/img/tik1.png" height="25px"/></a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-bar navbar-kebab"></span>
+                            <span class="navbar-toggler-bar navbar-kebab"></span>
+                            <span class="navbar-toggler-bar navbar-kebab"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navigation">
+                            <ul class="navbar-nav ml-auto">
+                                <ul id="evento-categoria" class="navbar-nav ml-auto" style="padding-left:2.5%;">
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">SOCIAL</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">CORPORATIVO</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">EMPRESARIAL</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">ESPIRITUAL</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">ACADÊMICO</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">CULTURAL</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">ENTRETENIMENTO</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">ESPORTIVO</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">POLÍTICO</a></li>
+                                    <li class="nav-item d-none d-xl-block mt-3"><a href="javascript:void(0)">EDUCACIONAL</a></li>
+                                </ul>
+
+                                <li class="search-bar input-group">
+                                    <button class="btn btn-link" id="search-button" data-toggle="modal" data-target="#searchModal"><i class="tim-icons icon-zoom-split" ></i>
+                                        <span class="d-lg-none d-md-block">Pesquisar Evento</span>
+                                    </button>
+                                </li>
+                                <!--                                <li class="dropdown nav-item">
+                                                                    <a href="javascript:void(0)" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                                                                        <div class="notification d-none d-lg-block d-xl-block"></div>
+                                                                        <i class="tim-icons icon-sound-wave"></i>
+                                                                        <p class="d-lg-none">
+                                                                            Notificações
+                                                                        </p>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu dropdown-menu-right dropdown-navbar">
+                                                                        <li class="nav-link"><a href="#" class="nav-item dropdown-item">Mike John responded to your email</a></li>
+                                                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">You have 5 more tasks</a></li>
+                                                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Your friend Michael is in town</a></li>
+                                                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Another notification</a></li>
+                                                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Another one</a></li>
+                                                                    </ul>
+                                                                </li>-->
+                                <li class="dropdown nav-item">
+                                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                                        <div class="photo">
+                                            <img src="<?php echo $this->session->userdata('perfilimg'); ?>" alt="Profile Photo">
+                                        </div>
+                                        <b class="caret d-none d-lg-block d-xl-block"></b>
+                                        <p class="d-lg-none">
+                                            Entrar
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-navbar">
+                                        <li class="nav-link"><a href="<?php echo base_url(); ?>login" class="nav-item dropdown-item">ENTRAR</a></li>
+                                        <li class="nav-link"><a href="<?php echo base_url(); ?>cadastro" class="nav-item dropdown-item">CADASTRAR-SE</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="separator d-lg-none"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="modal modal-search fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="DIGITE ALGO SOBRE O EVENTO...">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <i class="tim-icons icon-simple-remove"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Navbar -->
+
+<?php }else{ ?>                
 
     <body class="">
         <div class="wrapper">
@@ -382,3 +668,5 @@
                     </div>
                 </div>
                 <!-- End Navbar -->
+                
+<?php } ?>

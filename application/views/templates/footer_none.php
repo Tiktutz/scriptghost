@@ -251,6 +251,10 @@
 
         });
 
+        $('#btn-cadastrouser').on('click', function () {
+            $('#form_cadastrouser').submit();
+        });
+
 
 
 
@@ -258,6 +262,7 @@
 
     });
 </script>
+
 <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
 <script>
     window.TrackJS &&

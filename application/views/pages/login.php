@@ -6,15 +6,15 @@
             <h3 class="text-center default-text py-3"><img src="assets/img/tik1.png" /></h3>
             <h3 class="text-center default-text py-3"><i class="fa fa-lock"></i> Entrar</h3>
             <!--Body-->
-            <form id="form_login" method="post" action="login">
+            <form id="form_login" method="post" action="authenticate">
                 <div class="md-form col col-6" style="margin-left:25%;">
-                    <i class="fa fa-envelope prefix grey-text"></i>
-                    <input type="text" id="defaultForm-email" class="form-control">
-                    <label for="defaultForm-email">Digite seu email</label>
+                    <i class="fa fa-user prefix grey-text"></i>
+                    <input id="usuario_nome" name="login" type="text" id="defaultForm-email" class="form-control">
+                    <label for="defaultForm-email">Digite seu login</label>
                 </div>
                 <div class="md-form col col-6" style="margin-left:25%;">
                     <i class="fa fa-lock prefix grey-text"></i>
-                    <input type="password" id="defaultForm-pass" class="form-control">
+                    <input id="usuario_senha" name="senha" type="password" id="defaultForm-pass" class="form-control">
                     <label for="defaultForm-pass">Digite sua senha</label>
                 </div>
                 <div class="text-center mt-5">
