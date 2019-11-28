@@ -153,7 +153,7 @@
 .section-full-page{
 
     &:after,
-    &:before{
+        &:before{
         display: block;
         content: "";
         position: absolute;
@@ -205,8 +205,8 @@
     }
 
     .footer nav > ul a:not(.btn),
-    .footer,
-    .footer .copyright a{
+        .footer,
+        .footer .copyright a{
         color: $white-color;
     }
 

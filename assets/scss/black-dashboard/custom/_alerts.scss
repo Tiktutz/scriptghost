@@ -3,11 +3,11 @@
     color: $white;
 
     .alert-link{
-      color: $white;
+        color: $white;
     }
 
     &.alert-success{
-      background-color: darken($success, 10%);
+        background-color: darken($success, 10%);
     }
 
     i.fa,
@@ -24,22 +24,22 @@
     }
 
     span[data-notify="icon"]{
-      font-size: 22px;
-      display: block;
-      left: 19px;
-      position: absolute;
-      top: 50%;
-      margin-top: -11px;
+        font-size: 22px;
+        display: block;
+        left: 19px;
+        position: absolute;
+        top: 50%;
+        margin-top: -11px;
     }
 
     button.close{
-      position: absolute;
-      right: 15px;
-      top: 50%;
-      margin-top: -13px;
-      width: 25px;
-      height: 25px;
-      padding: 3px;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        margin-top: -13px;
+        width: 25px;
+        height: 25px;
+        padding: 3px;
     }
 
     .close ~ span{
@@ -62,7 +62,7 @@
         opacity: 1;
 
         &:hover,
-        &:focus {
+            &:focus {
             color: rgba($white, .9);
             opacity: 1 !important;
         }
@@ -79,7 +79,7 @@
         }
 
         &:hover,
-        &:focus {
+            &:focus {
             &>span:not(.sr-only) {
                 background-color: transparent;
                 color: rgba($white, .9);

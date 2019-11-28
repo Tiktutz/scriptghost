@@ -3,28 +3,28 @@
 }
 
 @mixin form-control-placeholder($color, $opacity){
-   .form-control::-moz-placeholder{
-       color: $color;
-       @include opacity(1);
-   }
-   .form-control:-moz-placeholder{
-       color: $color;
-       @include opacity(1);
-   }
-   .form-control::-webkit-input-placeholder{
-       color: $color;
-       @include opacity(1);
-   }
-   .form-control:-ms-input-placeholder{
-       color: $color;
-       @include opacity(1);
-   }
+    .form-control::-moz-placeholder{
+        color: $color;
+        @include opacity(1);
+    }
+    .form-control:-moz-placeholder{
+        color: $color;
+        @include opacity(1);
+    }
+    .form-control::-webkit-input-placeholder{
+        color: $color;
+        @include opacity(1);
+    }
+    .form-control:-ms-input-placeholder{
+        color: $color;
+        @include opacity(1);
+    }
 }
 
 @mixin placeholder() {
-  &::-moz-placeholder {@content; } // Firefox
-  &:-ms-input-placeholder {@content; } // Internet Explorer 10+
-  &::-webkit-input-placeholder  {@content; } // Safari and Chrome
+    &::-moz-placeholder {@content; } // Firefox
+    &:-ms-input-placeholder {@content; } // Internet Explorer 10+
+    &::-webkit-input-placeholder  {@content; } // Safari and Chrome
 }
 
 @mixin light-form(){
@@ -158,7 +158,7 @@
     }
 
     .input-group-prepend{
-      margin-right: 0;
+        margin-right: 0;
     }
 
     .input-group-prepend .input-group-text,
@@ -186,8 +186,8 @@
             color: $color2;
 
             &:focus,
-            &:active,
-            &:active{
+                &:active,
+                &:active{
                 background-color: rgba($background-black,0.3);
                 color: $color3;
             }
@@ -198,8 +198,8 @@
             background-color: rgba($background-black,0.2);;
 
             &:focus,
-            &:active,
-            &:active{
+                &:active,
+                &:active{
                 background-color: rgba($background-black,0.3);
                 color: $color3;
             }

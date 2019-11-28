@@ -8,7 +8,7 @@ class Users extends CI_Controller {
         $this->load->view('pages/login');
         $this->load->view('templates/footer_none');
     }
-    
+
     public function cadastro() {
 
         $this->load->view('templates/header_none');

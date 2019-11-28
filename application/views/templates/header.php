@@ -359,8 +359,8 @@
                                         </p>
                                     </a>
                                     <ul class="dropdown-menu dropdown-navbar">
-                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">ENTRAR</a></li>
-                                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">CADASTRAR-SE</a></li>
+                                        <li class="nav-link"><a href="<?php echo base_url(); ?>login" class="nav-item dropdown-item">ENTRAR</a></li>
+                                        <li class="nav-link"><a href="<?php echo base_url(); ?>cadastro" class="nav-item dropdown-item">CADASTRAR-SE</a></li>
 
                                     </ul>
                                 </li>

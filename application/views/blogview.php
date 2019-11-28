@@ -1,21 +1,21 @@
 <html>
-<head>
-        <title><?php echo $title;?></title>
-</head>
-<body>
-        <h1><?php echo $heading;?></h1>
+    <head>
+        <title><?php echo $title; ?></title>
+    </head>
+    <body>
+        <h1><?php echo $heading; ?></h1>
 
         <h3>My Todo List</h3>
 
         <ul>
-        <?php foreach ($todo_list as $item):?>
+            <?php foreach ($todo_list as $item): ?>
 
-                <li><?php echo $item;?></li>
+                <li><?php echo $item; ?></li>
 
-        <?php endforeach;?>
+            <?php endforeach; ?>
         </ul>
 
-</body>
+    </body>
 </html>
 
 

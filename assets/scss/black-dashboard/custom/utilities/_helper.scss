@@ -10,7 +10,7 @@
 
 .floatfix {
     &:before,
-    &:after {
+        &:after {
         content: '';
         display: table;
     }

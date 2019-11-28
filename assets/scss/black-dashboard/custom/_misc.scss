@@ -28,158 +28,158 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
 }
 
 .caret{
-  width: 0;
-  height: 0;
-  vertical-align: middle;
-  border-top: 4px dashed;
-  border-right: 4px solid transparent;
-  border-left: 4px solid transparent;
-  margin-top: -5px;
-  position: absolute;
-  top: 30px;
-  margin-left: 5px;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    margin-top: -5px;
+    position: absolute;
+    top: 30px;
+    margin-left: 5px;
 }
 
 .pull-left{
-  float: left;
+    float: left;
 }
 .pull-right{
-  float: right;
+    float: right;
 }
 
 
 // card user profile page
 
 .card {
-  form {
-    label + .form-control {
-      margin-bottom: 20px;
+    form {
+        label + .form-control {
+            margin-bottom: 20px;
+        }
     }
-  }
 }
 
 .card {
-  .map-title {
-    color: $white;
-  }
-
-  &.card-chart {
-    .gmnoprint,
-    .gm-style-cc {
-      display: none !important;
+    .map-title {
+        color: $white;
     }
-  }
+
+    &.card-chart {
+        .gmnoprint,
+        .gm-style-cc {
+            display: none !important;
+        }
+    }
 }
 
 // documentation
 
 .bd-docs {
 
-  h1,h2,h3,h4,h5,h6,p,ul li,ol li{
-    color:#2c2c2c;
-  }
-
-
-  .bd-content>table>thead>tr>th {
-    color: $black;
-
-  }
-
-  .blockquote, .blockquote p, .card p{
-    color: rgba($white,0.8);
-  }
-  .bd-example {
-    background: linear-gradient(#1e1e2f,#1e1e24);
-
-  }
-
-  .navbar {
-    border-top: none;
-
-    .navbar-nav .nav-link {
-      color: rgba(255,255,255,.8) !important;
-    }
-  }
-
-  .bd-example {
-
-    .btn{
-      margin: 4px 0;
-    }
-    .btn .badge {
-      display: inline-block;
+    h1,h2,h3,h4,h5,h6,p,ul li,ol li{
+        color:#2c2c2c;
     }
 
-    .tim-icons{
-      color: $white;
-    }
 
-    .popover .popover-header {
-    color: hsla(0,0%,71%,.6);
-  }
-
-
-    .popover-body {
-      p {
-        color: $gray-900;
-      }
-    }
-
-    &.tooltip-demo p{
-      color: rgba($white,.8);
-    }
-  }
-
-  .card.card-body,
-  .card .card-body {
-    color: hsla(0,0%,100%,.8);
-  }
-
-  label,
-  .form-check {
-    color: hsla(0,0%,100%,.8);
-  }
-
-  .form-check + .btn {
-    margin-top: 20px;
-  }
-
-  .bd-example,
-  table {
-    thead th {
-      color: hsla(0,0%,100%,.8);
-    }
-
-    h1, h2, h3, h4, h5, h6,
-    .h1, .h2, .h3, .h4, .h5, .h6 {
-      color: hsla(0,0%,100%,.8);
-    }
-
-    .datepicker{
-      thead th, table thead th,.tim-icons{
-        color: $primary;
-      }
+    .bd-content>table>thead>tr>th {
+        color: $black;
 
     }
 
-    .picker-switch .tim-icons{
-      color: $primary;
+    .blockquote, .blockquote p, .card p{
+        color: rgba($white,0.8);
     }
-  }
+    .bd-example {
+        background: linear-gradient(#1e1e2f,#1e1e24);
 
-  .footer {
-    .container-fluid > nav {
-      display: inline-block;
     }
-  }
+
+    .navbar {
+        border-top: none;
+
+        .navbar-nav .nav-link {
+            color: rgba(255,255,255,.8) !important;
+        }
+    }
+
+    .bd-example {
+
+        .btn{
+            margin: 4px 0;
+        }
+        .btn .badge {
+            display: inline-block;
+        }
+
+        .tim-icons{
+            color: $white;
+        }
+
+        .popover .popover-header {
+            color: hsla(0,0%,71%,.6);
+        }
+
+
+        .popover-body {
+            p {
+                color: $gray-900;
+            }
+        }
+
+        &.tooltip-demo p{
+            color: rgba($white,.8);
+        }
+    }
+
+    .card.card-body,
+    .card .card-body {
+        color: hsla(0,0%,100%,.8);
+    }
+
+    label,
+    .form-check {
+        color: hsla(0,0%,100%,.8);
+    }
+
+    .form-check + .btn {
+        margin-top: 20px;
+    }
+
+    .bd-example,
+    table {
+        thead th {
+            color: hsla(0,0%,100%,.8);
+        }
+
+        h1, h2, h3, h4, h5, h6,
+        .h1, .h2, .h3, .h4, .h5, .h6 {
+            color: hsla(0,0%,100%,.8);
+        }
+
+        .datepicker{
+            thead th, table thead th,.tim-icons{
+                color: $primary;
+            }
+
+        }
+
+        .picker-switch .tim-icons{
+            color: $primary;
+        }
+    }
+
+    .footer {
+        .container-fluid > nav {
+            display: inline-block;
+        }
+    }
 }
 .modal.show .modal-dialog {
-  -webkit-transform: translate(0,30%);
-  transform: translate(0,30%);
+    -webkit-transform: translate(0,30%);
+    transform: translate(0,30%);
 }
 
 code {
-  color: $pink;
+    color: $pink;
 }
 
 @media screen and (max-width: 991px){
@@ -192,7 +192,7 @@ code {
     }
 
     #searchModal .modal-dialog{
-      margin: 20px;
+        margin: 20px;
     }
 
     #minimizeSidebar{
@@ -219,11 +219,11 @@ code {
     }
 
     .form-horizontal .col-form-label, .form-horizontal .label-on-right{
-      text-align: inherit;
-      padding-top: 0;
-      code{
-        padding: 0 10px;
-      }
+        text-align: inherit;
+        padding-top: 0;
+        code{
+            padding: 0 10px;
+        }
     }
 
 }

@@ -1,15 +1,15 @@
 body {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  line-height: $headings-line-height;
+    line-height: $headings-line-height;
 
 }
 p{
-  font-weight: $font-weight-light;
+    font-weight: $font-weight-light;
 }
 
 button,
@@ -20,9 +20,9 @@ textarea{
     font-family: $font-family-base;
 }
 .card{
-  h1,h2,h3,h4,h5,h6,p{
-    color: $opacity-8;
-  }
+    h1,h2,h3,h4,h5,h6,p{
+        color: $opacity-8;
+    }
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: $font-weight-normal;
@@ -33,7 +33,7 @@ a{
     color: $primary-states;
     font-weight: $font-weight-light;
     &:hover,
-    &:focus{
+        &:focus{
         color: $primary;
     }
 }
@@ -160,15 +160,15 @@ p{
 }
 
 ul li, ol li{
-  color: $white;
+    color: $white;
 }
 
 pre{
-  color: $opacity-8;
+    color: $opacity-8;
 }
 
 hr{
-  border-top: 1px solid rgba(0,0,0,0.1);
-  margin-top: $spacer;
-  margin-bottom: $spacer;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    margin-top: $spacer;
+    margin-bottom: $spacer;
 }

@@ -330,12 +330,12 @@
             navText: ['<div id="navSlidePrev" class="bg-primary position-absolute rounded-circle" style="top:30%; padding: 10px;"><i class="tim-icons icon-minimal-left" style="font-size: 30px;color:#fff;"></i></div>', '<div id="navSlideProx" class="bg-primary rounded-circle position-absolute" style="top:30%; right:0%; padding:10px;"><i class="tim-icons icon-minimal-right" style="font-size: 30px; color:#fff;"></i></div>']
 
         });
-        
 
 
 
 
-        
+
+
     });
 </script>
 <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>

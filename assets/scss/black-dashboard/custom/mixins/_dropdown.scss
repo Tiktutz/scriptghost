@@ -13,7 +13,7 @@
         color: $dropdown-color;
 
         &:hover,
-        &:focus{
+            &:focus{
             background-color: $background-color;
         }
     }
@@ -22,5 +22,5 @@
         background-color: $background-color;
     }
 
-  
+
 }
