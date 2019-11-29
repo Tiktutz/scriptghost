@@ -1,0 +1,70 @@
+﻿.form_cadastro{
+
+    width: 50%;
+    font-family: 'Trebuchet MS';
+    font-size: 13px;
+    border: 1px solid rgb(7,152,40);
+    border-radius:4px;
+    box-shadow:2px 2px 5px rgb(128, 128, 128);
+    color:rgb(7,152,40);
+    height:calc(2.25rem + 2px);
+    padding:.375rem .75rem;
+    line-height:1.5;
+    background-color:#fff;
+    background-clip:padding-box;
+    transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+.form_cadastro_menor {
+  
+    width: 30%;
+    font-family: 'Trebuchet MS';
+    font-size: 13px;
+    border: 1px solid rgb(7,152,40);
+    border-radius:4px;
+    box-shadow:2px 2px 5px rgb(128, 128, 128);
+    color:rgb(7,152,40);
+    height:calc(2.25rem + 2px);
+    padding:.375rem .75rem;
+    line-height:1.5;
+    background-color:#fff;
+    background-clip:padding-box;
+    transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+.margen_form{
+
+    margin-left: 30%;
+    margin-bottom: 5px;
+    font-size:20px;
+	list-style: none;
+	
+}
+.botao {
+    background-color: #AF05EF;
+    border: 1px solid #AF05EF;
+    font-family: 'Trebuchet MS';
+    font-size: 13px;
+    color: rgb(255,255,255);
+    width: 100px;
+    height: 25px;
+    margin-top: 2px;
+    border-radius:4px;
+    box-shadow:2px 2px 5px rgb(128, 128, 128);
+ 
+}
+.check {
+    font-family: 'Trebuchet MS';
+    font-size: 13px;
+    color:rgb(7,152,40)
+}
+.textBoxMaior {
+
+    margin-top: 2px;
+    font-family: 'Trebuchet MS';
+    font-size: 13px;
+    border: 1px solid rgb(7,152,40);
+    border-radius:4px;
+    box-shadow:2px 2px 5px rgb(128, 128, 128);
+    color:rgb(7,152,40);
+    width: 50%;
+    resize: none;
+}

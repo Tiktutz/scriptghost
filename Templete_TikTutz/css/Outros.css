@@ -1,0 +1,92 @@
+.body{
+	
+	background-color: #FDFDFD;
+	
+	
+}
+.Span{
+	
+	color: #AF05EF;
+
+}
+
+.Planos{
+	
+	margin-left: 150px;
+	width: 205px;
+	
+}
+.N_Planos{
+	
+	margin-left: 100px;	
+	margin-right: 50px;
+	
+}
+.menu ul li a:hover{
+
+    background-color:#AF05EF;
+
+}
+.tiktutz{
+	
+	
+	
+	
+}
+.tik h2{
+	
+	font-size: 50px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	margin-left: 30px;
+	color: #AF05EF;
+	
+}
+
+.tik p{
+	
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	
+	
+}
+.botaoP{
+	
+	background-color: #AF05EF;
+    border: 1px solid #AF05EF;
+    font-family: 'Trebuchet MS';
+	 border-radius:4px;
+    box-shadow:2px 2px 5px rgb(128, 128, 128);
+	
+	
+}
+.tikbutton{
+	
+	background-color: #AF05EF;
+    border: 1px solid #AF05EF;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    color: rgb(255,255,255);
+    width: 130px;
+    height: 40px;
+    border-radius:4px;
+    box-shadow:2px 2px 5px rgb(128, 128, 128);
+	margin-bottom: 30px;
+	margin-left: 24%;
+	margin-top: 20px;	
+}
+.tik{
+	margin-left: 25%;
+	
+}
+.tikimg{
+	
+
+	margin-left: 40%;
+	
+}
+.imgMenu{
+	
+	bottom: 100px;
+	height: 100px;
+	
+}
